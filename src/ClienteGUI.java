@@ -1,5 +1,3 @@
-package gui;
-
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -13,9 +11,6 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
-
-import entity.ChatClient;
-import entity.ChatServer;
 
 @SuppressWarnings("serial")
 public class ClienteGUI extends JFrame implements Runnable {

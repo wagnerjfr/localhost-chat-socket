@@ -1,10 +1,5 @@
-package main;
-
 import java.io.IOException;
 import java.net.UnknownHostException;
-
-import entity.ChatServer;
-import gui.ClienteGUI;
 
 public class Main {
     public static int SERVER_PORT = 5000;
