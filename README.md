@@ -1,4 +1,4 @@
-# Local host chat using Sockets :keyboard: :speech_balloon:
+# Localhost chat using Sockets :keyboard: :speech_balloon:
 A simple localhost chat with 3 clients and 1 server using Sockets
 
 ### 1. Clone and build the projet
