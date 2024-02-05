@@ -11,8 +11,8 @@ public class Main {
         tserver.start();
         Thread.sleep(1000);
 
-        new Thread(new ClienteGUI("User 1", server)).start();
-        new Thread(new ClienteGUI("User 2", server)).start();
-        new Thread(new ClienteGUI("User 3", server)).start();
+        new Thread(new ClientGUI("User 1", server)).start();
+        new Thread(new ClientGUI("User 2", server)).start();
+        new Thread(new ClientGUI("User 3", server)).start();
     }
 }
